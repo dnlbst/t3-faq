@@ -1,0 +1,13 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+    <section class="m-text-1 ">
+        <div class="l-wrapper">
+            <h3><f:translate key="tx_dbestfaq_domain_model_faq.faq_question" /></h3>{faq.question}<br>
+            <h3><f:translate key="tx_dbestfaq_domain_model_faq.faq_answer" /></h3>{faq.answer}<br>
+            <br><br>
+            <f:link.page style="text-decoration: underline" pageUid="{settings.pids.listView}">
+                <f:translate key="tx_dbestfaq_domain_model_faq.back_button" />
+            </f:link.page>
+        </div>
+    </section>
+</html>
+

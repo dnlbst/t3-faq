@@ -1,0 +1,11 @@
+plugin.tx_dbestfaq {
+    persistence {
+        storagePid = 65
+    }
+    settings {
+        pids {
+            listView = 3
+            detailView = 66
+        }
+    }
+}

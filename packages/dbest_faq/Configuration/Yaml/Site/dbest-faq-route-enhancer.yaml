@@ -1,0 +1,17 @@
+routeEnhancers:
+  FaqShow:
+    type: Extbase
+    limitToPages:
+      - 66
+    extension: DbestFaq
+    plugin: FaqShow
+    routes:
+      - routePath: '/{faq}'
+        _controller: 'Faq::show'
+        _arguments:
+          product: faq
+    aspects:
+      product:
+        type: PersistedAliasMapper
+        tableName: tx_dbestfaq_domain_model_faq
+        routeFieldName: slug

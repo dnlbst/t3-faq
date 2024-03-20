@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2024-03-16"
+          product-name="dbest_faq">
+        <header/>
+        <body>
+            <trans-unit id="tx_dbestfaq_domain_model_faq.faq_question">
+                <source>Faq Question</source>
+            </trans-unit>
+            <trans-unit id="tx_dbestfaq_domain_model_faq.faq_answer">
+                <source>Faq Answer</source>
+            </trans-unit>
+            <trans-unit id="tx_dbestfaq_domain_model_faq.back_button">
+                <source>Back to Controller List</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

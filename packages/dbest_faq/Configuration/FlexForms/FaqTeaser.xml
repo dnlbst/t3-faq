@@ -1,0 +1,26 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:dbest_faq/Resources/Private/Language/de.locallang_db.xlf:tx_dbestfaq_plugin_options</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.faqIds>
+                        <TCEforms>
+                            <label>LLL:EXT:dbest_faq/Resources/Private/Language/de.locallang_db.xlf:tx_dbestfaq_plugin_selection</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_dbestfaq_domain_model_faq</allowed>
+                                <minitems>1</minitems>
+                                <maxitems>99</maxitems>
+                            </config>
+                        </TCEforms>
+                    </settings.faqtIds>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

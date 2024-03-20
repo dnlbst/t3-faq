@@ -1,0 +1,19 @@
+{
+  "name": "dbest/dbest_faq",
+  "type": "typo3-cms-extension",
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "dbest_faq"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Dbest\\DbestFaq\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dbest\\DbestFaq\\Tests\\": "Tests"
+    }
+  }
+}

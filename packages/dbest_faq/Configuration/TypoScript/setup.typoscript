@@ -1,0 +1,11 @@
+plugin.tx_dbestfaq {
+    persistence {
+        storagePid = {$plugin.tx_dbestfaq.persistence.storagePid}
+    }
+    settings {
+        pids {
+            listView = {$plugin.tx_dbestfaq.settings.pids.listView}
+            detailView = {$plugin.tx_dbestfaq.settings.pids.detailView}
+        }
+    }
+}
